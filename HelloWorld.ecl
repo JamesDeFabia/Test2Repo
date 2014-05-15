@@ -1,2 +1,4 @@
 #WORKUNIT('name','Hello Task');
-OUTPUT('Hello World') : WHEN(EVENT('Timehascome','now'));
+a := 1;
+b := 2;
+OUTPUT(a+b) : WHEN(EVENT('Timehascome','now'));
