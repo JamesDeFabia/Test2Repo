@@ -1,0 +1,2 @@
+#WORKUNIT('name','Send Trigger');
+NOTIFY('Timehascome','now');
